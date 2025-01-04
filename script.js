@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     // Define the readOnly flag
-    const readOnly = true; // Set this to true for visitors and false for admin
+    const readOnly = false; // Set this to true for visitors and false for admin
 
     // Make blocks editable or non-editable based on readOnly flag
     const blocks = document.querySelectorAll(".block");
